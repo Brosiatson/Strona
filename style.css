@@ -209,6 +209,38 @@ main.gra:hover{
 }
 
 .przycisk{
-	text-align: center;
-	margin-top: 25%
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ak47{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.ak47img{
+	width: 300px;
+	height: auto;
+}
+
+.ak47imgshot{
+	width: 350px;
+	height: auto;
+}
+
+.ak47imgshot.l{
+	transform: rotateZ(-5deg);
+}
+
+.ak47imgshot.p{
+	transform: rotateZ(5deg);
+}
+
+.scenagry{
+	height: calc(100vh - 125px - 88px);
+	display: grid;
+	grid-template-columns: 45% 10% 45%;
 }
