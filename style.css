@@ -13,6 +13,8 @@ body
 
 .gra{
 	background-color: #c40000;
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 header{
@@ -220,7 +222,6 @@ main.gra:hover{
 	justify-content: center;
 }
 
-
 .ak47img{
 	width: 300px;
 	height: auto;
@@ -239,7 +240,27 @@ main.gra:hover{
 	transform: rotateZ(5deg);
 }
 
+.plomien{
+	position: absolute;
+	bottom: 50%;
+	width: 100px;
+	display: none;
+}
+
+.plomienshot{
+	display: block;
+}
+
+.p1{
+	padding-left: 380px;
+}
+
+.p2{
+	padding-right: 380px;
+}
+
 .scenagry{
+	position: relative;
 	height: calc(100vh - 125px - 88px);
 	display: grid;
 	grid-template-columns: 45% 10% 45%;
